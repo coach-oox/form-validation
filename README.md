@@ -1,6 +1,6 @@
 # Form Validation
 
-Simple Form Validator using Vanilla Javascript. [[Demo]]()  
+Simple Form Validator using Vanilla Javascript. [[Demo]](https://coach-oox.github.io/form-validation/)  
 🎈 Vanilla JS Project for Beginners.
 
 ## Preview
