@@ -1,0 +1,16 @@
+@mixin block($width, $height, $background-color) {
+    width: $width;
+    height: $height;
+    background-color: $background-color;
+    border-radius: 30px;
+    box-shadow: 2px 2px 10px $oq3;
+    margin-top: 1em;
+}
+
+@mixin headline() {
+    color: $yellow;
+    font-size: 5em;
+    text-shadow: 1px 1px 10px $oq3;
+    line-height: 1;
+    font-weight: bold;
+}

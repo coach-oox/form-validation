@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/src/css/style.css" />
+        <title>Form Validation @coach-oox</title>
+    </head>
+    <body>
+        <h2>Sign Up</h2>
+
+        <div class="greeting">Welcome!</div>
+
+        <div class="container">
+            <form>
+                <div class="inputs">
+                    <div class="rows">
+                        <label for="name">Nickname</label>
+                        <input type="text" name="name" id="name" />
+                    </div>
+
+                    <span class="warning-nickname">Nickname is required.</span>
+
+                    <div class="rows">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" />
+                    </div>
+
+                    <span class="warning-email">Email is required.</span>
+
+                    <div class="rows">
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password" />
+                    </div>
+
+                    <span class="warning-password">Password is required.</span>
+
+                    <div class="rows">
+                        <label for="password2">Confirm Password</label>
+                        <input type="password" name="password2" id="password2" />
+                    </div>
+
+                    <span class="warning-password2">Password2 is required.</span>
+                </div>
+
+                <div class="checks">
+                    <div class="checkbox">
+                        <input type="checkbox" name="publication" id="publication" />
+                        <label for="publication">Personal information collection agreement.</label>
+                    </div>
+
+                    <span class="warning-publication">checked consent for publication.</span>
+
+                    <div class="checkbox">
+                        <input type="checkbox" name="subscribe" id="subscribe" />
+                        <label for="subscribe">Subscribe to newsletter.</label>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <button type="submit">Sign Up Now!</button>
+
+        <script src="/src/js/validation.js"></script>
+    </body>
+</html>
